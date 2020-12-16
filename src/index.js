@@ -47,7 +47,7 @@ app.get('/api/posts', (req,res) => {
         numOfApiCalls++;
     }
 
-})
+});
 
 app.listen(port, () => console.log(`App listening on port ${port}!`))
 
